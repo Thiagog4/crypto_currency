@@ -5,9 +5,11 @@ import App from "./App";
 import "react-alice-carousel/lib/alice-carousel.css";
 import CryptoContext from "./CryptoContext";
 
-const root = ReactDom.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
+  <React.StrictMode>
     <CryptoContext>
       <App />
     </CryptoContext>
+    </React.StrictMode>,
+  document.getElementById("root")
 );
