@@ -2,6 +2,10 @@
 
 A personal project, which shows the market value of cryptocurrencies, individually shows a chart to assist in the analysis of the coin
 
+## App runing
+https://thiagog4-crypto-currency.vercel.app/
+
+
 ## Getting Started
 
 This project is a starting point for a React application. (create-react-app)
@@ -28,6 +32,8 @@ Clone the project with git clone and...
 - State management
 - Table control
 - Material ui V4
+- Axios
 - UseStyles
 - Animation
 - Table pagination
+
